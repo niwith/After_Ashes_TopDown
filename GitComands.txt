@@ -4,7 +4,7 @@ git bash, type:
 git init
 git config --global user.name "username here"
 git config --global user.email "email here"
-git clone https://github.com/niwith/After_Ashes_TopDown.git
+git clone https://github.com/niwith/After_Ashes_TopDown
 
 To pull from github:
 right click on folder
