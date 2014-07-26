@@ -1,0 +1,22 @@
+Get a folder ready to be your local copy of the files:
+right click on the folder
+git bash, type:
+git init
+git config --global user.name "username here"
+git config --global user.email "email here"
+git clone https://github.com/niwith/After_Ashes_TopDown.git
+
+To pull from github:
+right click on folder
+git bash, type:
+git pull
+
+To push to github:
+right click on folder
+git bash, type:
+git add .
+git commit -m "your commit message here"
+git pull    *THEN CHECK YOUR CODE IS STILL WORKING*
+git push
+
+If somthing doesnt work, tell me and ill fix it.
