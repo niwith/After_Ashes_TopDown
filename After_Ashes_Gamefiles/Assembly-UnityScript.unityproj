@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Camera\Cam_Follow.js" />
      <Compile Include="Assets\Scripts\Camera\Camera.js" />
      <Compile Include="Assets\Scripts\Effects\Sun.js" />
+     <Compile Include="Assets\Scripts\Effects\targetIndicator.js" />
      <Compile Include="Assets\Scripts\Enemy\enemyHealth.js" />
      <Compile Include="Assets\Scripts\Player\movement.js" />
      <Compile Include="Assets\Scripts\Player\shooting.js" />

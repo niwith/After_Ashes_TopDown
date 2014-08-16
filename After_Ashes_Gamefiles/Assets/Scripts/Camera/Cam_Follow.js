@@ -1,11 +1,11 @@
 ﻿#pragma strict
 
 var target : GameObject;
-var zpos : float;
+var ypos : float;
 
 function Update()
 {
-	transform.position.y = target.transform.position.y;
+	transform.position.y = ypos;
 	transform.position.x = target.transform.position.x;
-	transform.position.z = zpos;
+	transform.position.z = target.transform.position.z;
 }

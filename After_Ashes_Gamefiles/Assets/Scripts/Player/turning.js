@@ -10,17 +10,20 @@ function Awake () {
 }
 
 function Update () {
-	if(Input.GetMouseButton(1))
+	if(Input.GetMouseButton(1) && target)
 	{
 		v_diff = (target.position - transform.position);    
-        atan2 = Mathf.Atan2 ( v_diff.y, v_diff.x );
-        transform.rotation = Quaternion.Euler(0f, 0f, atan2 * Mathf.Rad2Deg );
+        atan2 = Mathf.Atan2 ( v_diff.x, v_diff.z );
+        transform.rotation = Quaternion.Euler(90f, atan2 * Mathf.Rad2Deg - 90, 0f );
     }
     else
     {
     	var objectPos = Camera.main.WorldToScreenPoint(transform.position);
 		var dir = Input.mousePosition - objectPos; 
-		transform.rotation = Quaternion.Euler (Vector3(0,0,Mathf.Atan2 (dir.y,dir.x) * Mathf.Rad2Deg));
+		transform.rotation = Quaternion.Euler(90f, -(Mathf.Atan2(dir.y,dir.x) * Mathf.Rad2Deg), 0f);
     }
-    target = shootingscript.target;
+    if(shootingscript.target)
+    {
+    	target = shootingscript.target;
+    }
 }  

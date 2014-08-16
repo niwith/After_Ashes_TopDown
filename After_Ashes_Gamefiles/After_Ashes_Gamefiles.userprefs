@@ -1,13 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\shooting.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\turning.js">
     <Files>
+      <File FileName="Assets\Scripts\Effects\Sun.js" Line="12" Column="2" />
       <File FileName="Assets\Scripts\Camera\Cam_Follow.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Camera\Camera.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\movement.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\turning.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\shooting.js" Line="46" Column="10" />
+      <File FileName="Assets\Scripts\Player\turning.js" Line="23" Column="90" />
+      <File FileName="Assets\Scripts\Player\shooting.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemy\enemyHealth.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Effects\targetIndicator.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
